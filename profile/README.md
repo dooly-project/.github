@@ -9,7 +9,7 @@ DoolyProf extracts all operations present in an LLM inference forward pass and e
 ## Repositories
 
 - [**⏱️ DoolyProf**](https://github.com/dooly-project/doolyprof) — The profiler. Performs a single tainted inference pass and selectively profiles operations absent from the latency database.
-- [**📊 DoolySim**](#) — Reference simulator built on top of DoolyProf's latency database.
+- [**📊 DoolySim**](https://github.com/dooly-project/doolysim) — Reference simulator built on top of DoolyProf's latency database.
 
 ## Installation
 
