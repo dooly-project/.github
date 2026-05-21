@@ -2,7 +2,7 @@
 
 ### Configuration-agnostic, redundancy-aware profiling for LLM inference simulation. ###
 
-DoolyProf extracts all operations present in an LLM inference forward pass and efficiently profiles only those absent from its latency database. The resulting latency models can be used in downstream LLM inference tasks such as simulation (e.g., DoolySim, [Vidur](https://github.com/microsoft/vidur)) or in latency-prediction-based schedulers (e.g., [llm-d](https://llm-d.ai/blog/predicted-latency-based-scheduling-for-llms)).
+DoolyProf extracts all operations present in an LLM inference forward pass and efficiently profiles only those absent from its latency database. The resulting latency models can be used in downstream LLM inference tasks such as simulation (e.g., [DoolySim](https://github.com/dooly-project/doolysim), [Vidur](https://github.com/microsoft/vidur)) or in latency-prediction-based schedulers (e.g., [llm-d](https://llm-d.ai/blog/predicted-latency-based-scheduling-for-llms)).
 
 📄 **Paper:** [Dooly: Configuration-Agnostic, Redundancy-Aware Profiling for LLM Inference Simulation](https://arxiv.org/abs/2605.07985)
 
